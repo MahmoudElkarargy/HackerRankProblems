@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BA24928316006348F1 /* 2DArrayDS.cpp */; };
+		D64C80BD2492D075006348F1 /* Left Rotation .cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BC2492D075006348F1 /* Left Rotation .cpp */; };
+		D64C80BF2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */; };
+		D64C80C22492F2B1006348F1 /* Array Manipulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80C12492F2B1006348F1 /* Array Manipulation.cpp */; };
+		D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80C3249321F3006348F1 /* Dynamic array.cpp */; };
 		D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6910F492492822B00F7345D /* ArraysDS.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,10 @@
 
 /* Begin PBXFileReference section */
 		D64C80BA24928316006348F1 /* 2DArrayDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2DArrayDS.cpp; sourceTree = "<group>"; };
+		D64C80BC2492D075006348F1 /* Left Rotation .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Left Rotation .cpp"; sourceTree = "<group>"; };
+		D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp"; sourceTree = "<group>"; };
+		D64C80C12492F2B1006348F1 /* Array Manipulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Manipulation.cpp"; sourceTree = "<group>"; };
+		D64C80C3249321F3006348F1 /* Dynamic array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dynamic array.cpp"; sourceTree = "<group>"; };
 		D6910F462492822B00F7345D /* HackerRankProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankProblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6910F492492822B00F7345D /* ArraysDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64C80C02492E72A006348F1 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				D6910F492492822B00F7345D /* ArraysDS.cpp */,
+				D64C80BA24928316006348F1 /* 2DArrayDS.cpp */,
+				D64C80BC2492D075006348F1 /* Left Rotation .cpp */,
+				D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */,
+				D64C80C12492F2B1006348F1 /* Array Manipulation.cpp */,
+				D64C80C3249321F3006348F1 /* Dynamic array.cpp */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
 		D6910F3D2492822B00F7345D = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +80,7 @@
 		D6910F482492822B00F7345D /* HackerRankProblems */ = {
 			isa = PBXGroup;
 			children = (
-				D6910F492492822B00F7345D /* ArraysDS.cpp */,
-				D64C80BA24928316006348F1 /* 2DArrayDS.cpp */,
+				D64C80C02492E72A006348F1 /* Arrays */,
 			);
 			path = HackerRankProblems;
 			sourceTree = "<group>";
@@ -122,7 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */,
 				D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */,
+				D64C80C22492F2B1006348F1 /* Array Manipulation.cpp in Sources */,
+				D64C80BD2492D075006348F1 /* Left Rotation .cpp in Sources */,
+				D64C80BF2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp in Sources */,
 				D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
