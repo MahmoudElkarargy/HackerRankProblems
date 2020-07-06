@@ -12,6 +12,9 @@
 		D64C80BF2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */; };
 		D64C80C22492F2B1006348F1 /* Array Manipulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80C12492F2B1006348F1 /* Array Manipulation.cpp */; };
 		D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80C3249321F3006348F1 /* Dynamic array.cpp */; };
+		D68AF8CC24B230BF00F1BFF0 /* Compare two linked list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */; };
+		D68AF8CE24B2368100F1BFF0 /* Merage two sorted lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */; };
+		D68AF8D024B25D9000F1BFF0 /* Get Node value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */; };
 		D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6910F492492822B00F7345D /* ArraysDS.cpp */; };
 		D6F3E59E249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */; };
 		D6F3E5A0249E3AC400769E1D /* insert a node at tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59F249E3AC400769E1D /* insert a node at tail.cpp */; };
@@ -19,6 +22,7 @@
 		D6FA3CBF24B139340090E5F4 /* Insert a node at a spesific position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6FA3CBE24B139340090E5F4 /* Insert a node at a spesific position.cpp */; };
 		D6FA3CC124B13E4A0090E5F4 /* Delete a Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6FA3CC024B13E4A0090E5F4 /* Delete a Node.cpp */; };
 		D6FA3CC324B14C010090E5F4 /* Print in a reverse order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6FA3CC224B14C010090E5F4 /* Print in a reverse order.cpp */; };
+		D6FA3CC524B14FB80090E5F4 /* Reverse a linkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6FA3CC424B14FB80090E5F4 /* Reverse a linkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +43,9 @@
 		D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp"; sourceTree = "<group>"; };
 		D64C80C12492F2B1006348F1 /* Array Manipulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Manipulation.cpp"; sourceTree = "<group>"; };
 		D64C80C3249321F3006348F1 /* Dynamic array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dynamic array.cpp"; sourceTree = "<group>"; };
+		D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Compare two linked list.cpp"; sourceTree = "<group>"; };
+		D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merage two sorted lists.cpp"; sourceTree = "<group>"; };
+		D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Get Node value.cpp"; sourceTree = "<group>"; };
 		D6910F462492822B00F7345D /* HackerRankProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankProblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6910F492492822B00F7345D /* ArraysDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
 		D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print the Elements of a Linked List  print the elments of a linkedlist.cpp"; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		D6FA3CBE24B139340090E5F4 /* Insert a node at a spesific position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insert a node at a spesific position.cpp"; sourceTree = "<group>"; };
 		D6FA3CC024B13E4A0090E5F4 /* Delete a Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Delete a Node.cpp"; sourceTree = "<group>"; };
 		D6FA3CC224B14C010090E5F4 /* Print in a reverse order.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print in a reverse order.cpp"; sourceTree = "<group>"; };
+		D6FA3CC424B14FB80090E5F4 /* Reverse a linkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse a linkedList.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 				D6FA3CBE24B139340090E5F4 /* Insert a node at a spesific position.cpp */,
 				D6FA3CC024B13E4A0090E5F4 /* Delete a Node.cpp */,
 				D6FA3CC224B14C010090E5F4 /* Print in a reverse order.cpp */,
+				D6FA3CC424B14FB80090E5F4 /* Reverse a linkedList.cpp */,
+				D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */,
+				D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */,
+				D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -170,11 +182,15 @@
 			files = (
 				D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */,
 				D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */,
+				D6FA3CC524B14FB80090E5F4 /* Reverse a linkedList.cpp in Sources */,
 				D64C80C22492F2B1006348F1 /* Array Manipulation.cpp in Sources */,
 				D64C80BD2492D075006348F1 /* Left Rotation .cpp in Sources */,
 				D6FA3CBF24B139340090E5F4 /* Insert a node at a spesific position.cpp in Sources */,
+				D68AF8D024B25D9000F1BFF0 /* Get Node value.cpp in Sources */,
+				D68AF8CE24B2368100F1BFF0 /* Merage two sorted lists.cpp in Sources */,
 				D6FA3CBD24B137350090E5F4 /* Insert a node at the head.cpp in Sources */,
 				D6FA3CC324B14C010090E5F4 /* Print in a reverse order.cpp in Sources */,
+				D68AF8CC24B230BF00F1BFF0 /* Compare two linked list.cpp in Sources */,
 				D64C80BF2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp in Sources */,
 				D6F3E5A0249E3AC400769E1D /* insert a node at tail.cpp in Sources */,
 				D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */,
