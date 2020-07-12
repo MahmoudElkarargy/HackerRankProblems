@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6444F9024BB8FA1007EFF99 /* Delete a dublicate value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6444F8F24BB8FA1007EFF99 /* Delete a dublicate value.cpp */; };
+		D6444F9224BB970A007EFF99 /* Cycle Detection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6444F9124BB970A007EFF99 /* Cycle Detection.cpp */; };
 		D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BA24928316006348F1 /* 2DArrayDS.cpp */; };
 		D64C80BD2492D075006348F1 /* Left Rotation .cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BC2492D075006348F1 /* Left Rotation .cpp */; };
 		D64C80BF2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */; };
@@ -15,6 +17,9 @@
 		D68AF8CC24B230BF00F1BFF0 /* Compare two linked list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */; };
 		D68AF8CE24B2368100F1BFF0 /* Merage two sorted lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */; };
 		D68AF8D024B25D9000F1BFF0 /* Get Node value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */; };
+		D68BDEED24BBB1FA004FD4C1 /* Find merge point of two Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BDEEC24BBB1FA004FD4C1 /* Find merge point of two Lists.cpp */; };
+		D68BDEEF24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BDEEE24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp */; };
+		D68BDEF124BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BDEF024BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp */; };
 		D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6910F492492822B00F7345D /* ArraysDS.cpp */; };
 		D6F3E59E249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */; };
 		D6F3E5A0249E3AC400769E1D /* insert a node at tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59F249E3AC400769E1D /* insert a node at tail.cpp */; };
@@ -38,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D6444F8F24BB8FA1007EFF99 /* Delete a dublicate value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Delete a dublicate value.cpp"; sourceTree = "<group>"; };
+		D6444F9124BB970A007EFF99 /* Cycle Detection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Cycle Detection.cpp"; sourceTree = "<group>"; };
 		D64C80BA24928316006348F1 /* 2DArrayDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2DArrayDS.cpp; sourceTree = "<group>"; };
 		D64C80BC2492D075006348F1 /* Left Rotation .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Left Rotation .cpp"; sourceTree = "<group>"; };
 		D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp"; sourceTree = "<group>"; };
@@ -46,6 +53,9 @@
 		D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Compare two linked list.cpp"; sourceTree = "<group>"; };
 		D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merage two sorted lists.cpp"; sourceTree = "<group>"; };
 		D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Get Node value.cpp"; sourceTree = "<group>"; };
+		D68BDEEC24BBB1FA004FD4C1 /* Find merge point of two Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find merge point of two Lists.cpp"; sourceTree = "<group>"; };
+		D68BDEEE24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insert a node into sorted double LL.cpp"; sourceTree = "<group>"; };
+		D68BDEF024BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Double linkedlist.cpp"; sourceTree = "<group>"; };
 		D6910F462492822B00F7345D /* HackerRankProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankProblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6910F492492822B00F7345D /* ArraysDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
 		D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print the Elements of a Linked List  print the elments of a linkedlist.cpp"; sourceTree = "<group>"; };
@@ -119,6 +129,11 @@
 				D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */,
 				D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */,
 				D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */,
+				D6444F8F24BB8FA1007EFF99 /* Delete a dublicate value.cpp */,
+				D6444F9124BB970A007EFF99 /* Cycle Detection.cpp */,
+				D68BDEEC24BBB1FA004FD4C1 /* Find merge point of two Lists.cpp */,
+				D68BDEEE24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp */,
+				D68BDEF024BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -180,11 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6444F9024BB8FA1007EFF99 /* Delete a dublicate value.cpp in Sources */,
+				D6444F9224BB970A007EFF99 /* Cycle Detection.cpp in Sources */,
+				D68BDEEF24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp in Sources */,
 				D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */,
 				D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */,
 				D6FA3CC524B14FB80090E5F4 /* Reverse a linkedList.cpp in Sources */,
 				D64C80C22492F2B1006348F1 /* Array Manipulation.cpp in Sources */,
 				D64C80BD2492D075006348F1 /* Left Rotation .cpp in Sources */,
+				D68BDEF124BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp in Sources */,
 				D6FA3CBF24B139340090E5F4 /* Insert a node at a spesific position.cpp in Sources */,
 				D68AF8D024B25D9000F1BFF0 /* Get Node value.cpp in Sources */,
 				D68AF8CE24B2368100F1BFF0 /* Merage two sorted lists.cpp in Sources */,
@@ -196,6 +215,7 @@
 				D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */,
 				D6F3E59E249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp in Sources */,
 				D6FA3CC124B13E4A0090E5F4 /* Delete a Node.cpp in Sources */,
+				D68BDEED24BBB1FA004FD4C1 /* Find merge point of two Lists.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
