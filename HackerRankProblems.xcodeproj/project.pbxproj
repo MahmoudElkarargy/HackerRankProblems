@@ -21,6 +21,7 @@
 		D68BDEEF24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BDEEE24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp */; };
 		D68BDEF124BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BDEF024BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp */; };
 		D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6910F492492822B00F7345D /* ArraysDS.cpp */; };
+		D6E281E924C11B4F0054B7B5 /* Maximum Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E281E824C11B4F0054B7B5 /* Maximum Element.cpp */; };
 		D6F3E59E249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */; };
 		D6F3E5A0249E3AC400769E1D /* insert a node at tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59F249E3AC400769E1D /* insert a node at tail.cpp */; };
 		D6FA3CBD24B137350090E5F4 /* Insert a node at the head.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6FA3CBC24B137350090E5F4 /* Insert a node at the head.cpp */; };
@@ -58,6 +59,7 @@
 		D68BDEF024BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Double linkedlist.cpp"; sourceTree = "<group>"; };
 		D6910F462492822B00F7345D /* HackerRankProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankProblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6910F492492822B00F7345D /* ArraysDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
+		D6E281E824C11B4F0054B7B5 /* Maximum Element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Element.cpp"; sourceTree = "<group>"; };
 		D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print the Elements of a Linked List  print the elments of a linkedlist.cpp"; sourceTree = "<group>"; };
 		D6F3E59F249E3AC400769E1D /* insert a node at tail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "insert a node at tail.cpp"; sourceTree = "<group>"; };
 		D6FA3CBC24B137350090E5F4 /* Insert a node at the head.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insert a node at the head.cpp"; sourceTree = "<group>"; };
@@ -110,10 +112,19 @@
 		D6910F482492822B00F7345D /* HackerRankProblems */ = {
 			isa = PBXGroup;
 			children = (
+				D6E281E724C11B260054B7B5 /* Stacks */,
 				D6F3E59C249E361800769E1D /* LinkedList */,
 				D64C80C02492E72A006348F1 /* Arrays */,
 			);
 			path = HackerRankProblems;
+			sourceTree = "<group>";
+		};
+		D6E281E724C11B260054B7B5 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E281E824C11B4F0054B7B5 /* Maximum Element.cpp */,
+			);
+			path = Stacks;
 			sourceTree = "<group>";
 		};
 		D6F3E59C249E361800769E1D /* LinkedList */ = {
@@ -213,6 +224,7 @@
 				D64C80BF2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp in Sources */,
 				D6F3E5A0249E3AC400769E1D /* insert a node at tail.cpp in Sources */,
 				D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */,
+				D6E281E924C11B4F0054B7B5 /* Maximum Element.cpp in Sources */,
 				D6F3E59E249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp in Sources */,
 				D6FA3CC124B13E4A0090E5F4 /* Delete a Node.cpp in Sources */,
 				D68BDEED24BBB1FA004FD4C1 /* Find merge point of two Lists.cpp in Sources */,
