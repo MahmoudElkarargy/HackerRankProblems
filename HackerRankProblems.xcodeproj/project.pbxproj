@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D63ABD2124C6369E000031E4 /* Balanced brackets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D63ABD2024C6369E000031E4 /* Balanced brackets.cpp */; };
+		D63ABD2324C63E89000031E4 /* Equal Stacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */; };
 		D6444F9024BB8FA1007EFF99 /* Delete a dublicate value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6444F8F24BB8FA1007EFF99 /* Delete a dublicate value.cpp */; };
 		D6444F9224BB970A007EFF99 /* Cycle Detection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6444F9124BB970A007EFF99 /* Cycle Detection.cpp */; };
 		D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BA24928316006348F1 /* 2DArrayDS.cpp */; };
@@ -44,6 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D63ABD2024C6369E000031E4 /* Balanced brackets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Balanced brackets.cpp"; sourceTree = "<group>"; };
+		D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Equal Stacks.cpp"; sourceTree = "<group>"; };
 		D6444F8F24BB8FA1007EFF99 /* Delete a dublicate value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Delete a dublicate value.cpp"; sourceTree = "<group>"; };
 		D6444F9124BB970A007EFF99 /* Cycle Detection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Cycle Detection.cpp"; sourceTree = "<group>"; };
 		D64C80BA24928316006348F1 /* 2DArrayDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2DArrayDS.cpp; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				D6E281E824C11B4F0054B7B5 /* Maximum Element.cpp */,
+				D63ABD2024C6369E000031E4 /* Balanced brackets.cpp */,
+				D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */,
 			);
 			path = Stacks;
 			sourceTree = "<group>";
@@ -208,6 +214,7 @@
 			files = (
 				D6444F9024BB8FA1007EFF99 /* Delete a dublicate value.cpp in Sources */,
 				D6444F9224BB970A007EFF99 /* Cycle Detection.cpp in Sources */,
+				D63ABD2324C63E89000031E4 /* Equal Stacks.cpp in Sources */,
 				D68BDEEF24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp in Sources */,
 				D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */,
 				D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */,
@@ -216,6 +223,7 @@
 				D64C80BD2492D075006348F1 /* Left Rotation .cpp in Sources */,
 				D68BDEF124BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp in Sources */,
 				D6FA3CBF24B139340090E5F4 /* Insert a node at a spesific position.cpp in Sources */,
+				D63ABD2124C6369E000031E4 /* Balanced brackets.cpp in Sources */,
 				D68AF8D024B25D9000F1BFF0 /* Get Node value.cpp in Sources */,
 				D68AF8CE24B2368100F1BFF0 /* Merage two sorted lists.cpp in Sources */,
 				D6FA3CBD24B137350090E5F4 /* Insert a node at the head.cpp in Sources */,
