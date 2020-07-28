@@ -16,6 +16,7 @@
 		D64C80BF2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */; };
 		D64C80C22492F2B1006348F1 /* Array Manipulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80C12492F2B1006348F1 /* Array Manipulation.cpp */; };
 		D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64C80C3249321F3006348F1 /* Dynamic array.cpp */; };
+		D67760ED24D0C66A00F93901 /* Game of two stacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67760EC24D0C66A00F93901 /* Game of two stacks.cpp */; };
 		D68AF8CC24B230BF00F1BFF0 /* Compare two linked list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */; };
 		D68AF8CE24B2368100F1BFF0 /* Merage two sorted lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */; };
 		D68AF8D024B25D9000F1BFF0 /* Get Node value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */; };
@@ -55,6 +56,7 @@
 		D64C80BE2492E71F006348F1 /* Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays  Sparse Arrays.cpp"; sourceTree = "<group>"; };
 		D64C80C12492F2B1006348F1 /* Array Manipulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Manipulation.cpp"; sourceTree = "<group>"; };
 		D64C80C3249321F3006348F1 /* Dynamic array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dynamic array.cpp"; sourceTree = "<group>"; };
+		D67760EC24D0C66A00F93901 /* Game of two stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Game of two stacks.cpp"; sourceTree = "<group>"; };
 		D68AF8CB24B230BF00F1BFF0 /* Compare two linked list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Compare two linked list.cpp"; sourceTree = "<group>"; };
 		D68AF8CD24B2368100F1BFF0 /* Merage two sorted lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merage two sorted lists.cpp"; sourceTree = "<group>"; };
 		D68AF8CF24B25D9000F1BFF0 /* Get Node value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Get Node value.cpp"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				D6E281E824C11B4F0054B7B5 /* Maximum Element.cpp */,
 				D63ABD2024C6369E000031E4 /* Balanced brackets.cpp */,
 				D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */,
+				D67760EC24D0C66A00F93901 /* Game of two stacks.cpp */,
 			);
 			path = Stacks;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				D6F3E59E249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp in Sources */,
 				D6FA3CC124B13E4A0090E5F4 /* Delete a Node.cpp in Sources */,
 				D68BDEED24BBB1FA004FD4C1 /* Find merge point of two Lists.cpp in Sources */,
+				D67760ED24D0C66A00F93901 /* Game of two stacks.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
