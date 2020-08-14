@@ -10,60 +10,29 @@
 #include <vector>
 using namespace std;
 
-int twoStacks(int x, vector<int> a, vector<int> b) {
-    int sumOfRemoved=0, numberOfIntegers=0;
-    while(!a.empty() || !b.empty()){
-        if(a.empty()){
-            while(!b.empty()){
-                if(sumOfRemoved+b.at(0) <= x){
-                    sumOfRemoved += b.at(0);
-                    b.erase(b.begin());
-                    numberOfIntegers +=1;
-                }
-                else return numberOfIntegers;
-            }
-            return numberOfIntegers;
-        }
-        if(b.empty()){
-            while(!a.empty()){
-                if(sumOfRemoved+a.at(0) <= x){
-                    sumOfRemoved += a.at(0);
-                    a.erase(a.begin());
-                    numberOfIntegers +=1;
-                }
-                else return numberOfIntegers;
-            }
-            return numberOfIntegers;
-        }
 
-        if(sumOfRemoved+b.at(0) > x && sumOfRemoved+a.at(0) > x)
-            return numberOfIntegers;
-        else{
-            if(a.at(0) > b.at(0)){
-                if(sumOfRemoved+a.at(0) <= x){
-                    sumOfRemoved += a.at(0);
-                    numberOfIntegers +=1;
-                    a.erase(a.begin());
-                }else if(sumOfRemoved+b.at(0) <= x){
-                    sumOfRemoved += b.at(0);
-                    b.erase(b.begin());
-                    numberOfIntegers +=1;
-                }
-            }
-            else{
-                if(sumOfRemoved+b.at(0) <= x){
-                    sumOfRemoved += b.at(0);
-                    b.erase(b.begin());
-                    numberOfIntegers +=1;
-                }else if(sumOfRemoved+a.at(0) <= x){
-                    sumOfRemoved += a.at(0);
-                    a.erase(a.begin());
-                    numberOfIntegers +=1;
-                }
-            }
+int twoStacks(int x, vector<int> a, vector<int> b) {
+    int sumOfRemoved=0, numberOfIntegers=0, i=0, j=0;
+    /* considering First stack only, calculate sum and count numbers untill reaching max sum. */
+    while(i < a.size() && sumOfRemoved+a.at(i) <= x){
+        sumOfRemoved += a.at(i);
+        i++;
+    }
+    /* The number of removed numbers will be equal to the i, which is the number of the first stack, this will work if the second stack contains bigger numbers. */
+    numberOfIntegers = i;
+    /* Now adding one elment from the second stack at a time */
+    while(j<b.size() && i>= 0){
+        sumOfRemoved += b.at(j);
+        j++;
+        /* If the sum become more than the max (x) then subtracting the top element of first stack */
+        while(sumOfRemoved > x && i>0){
+            i--;
+            sumOfRemoved -= a.at(i);
         }
+        /* If we reached a better number than change it. */
+        if(sumOfRemoved <= x && i+j > numberOfIntegers)
+            numberOfIntegers = i+j;
     }
     return numberOfIntegers;
 }
-
 
