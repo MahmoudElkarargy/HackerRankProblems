@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D630260124E766DE0008660B /* Largest Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D630260024E766DE0008660B /* Largest Rectangle.cpp */; };
 		D63ABD2124C6369E000031E4 /* Balanced brackets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D63ABD2024C6369E000031E4 /* Balanced brackets.cpp */; };
 		D63ABD2324C63E89000031E4 /* Equal Stacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */; };
 		D6444F9024BB8FA1007EFF99 /* Delete a dublicate value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6444F8F24BB8FA1007EFF99 /* Delete a dublicate value.cpp */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D630260024E766DE0008660B /* Largest Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Largest Rectangle.cpp"; sourceTree = "<group>"; };
 		D63ABD2024C6369E000031E4 /* Balanced brackets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Balanced brackets.cpp"; sourceTree = "<group>"; };
 		D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Equal Stacks.cpp"; sourceTree = "<group>"; };
 		D6444F8F24BB8FA1007EFF99 /* Delete a dublicate value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Delete a dublicate value.cpp"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				D63ABD2024C6369E000031E4 /* Balanced brackets.cpp */,
 				D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */,
 				D67760EC24D0C66A00F93901 /* Game of two stacks.cpp */,
+				D630260024E766DE0008660B /* Largest Rectangle.cpp */,
 			);
 			path = Stacks;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6444F9024BB8FA1007EFF99 /* Delete a dublicate value.cpp in Sources */,
+				D630260124E766DE0008660B /* Largest Rectangle.cpp in Sources */,
 				D6444F9224BB970A007EFF99 /* Cycle Detection.cpp in Sources */,
 				D63ABD2324C63E89000031E4 /* Equal Stacks.cpp in Sources */,
 				D68BDEEF24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp in Sources */,
