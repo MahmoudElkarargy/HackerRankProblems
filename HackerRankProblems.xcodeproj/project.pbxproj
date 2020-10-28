@@ -26,6 +26,8 @@
 		D68BDEF124BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BDEF024BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp */; };
 		D6910F4A2492822B00F7345D /* ArraysDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6910F492492822B00F7345D /* ArraysDS.cpp */; };
 		D6E281E924C11B4F0054B7B5 /* Maximum Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E281E824C11B4F0054B7B5 /* Maximum Element.cpp */; };
+		D6E399C42533747A009B3BFA /* Simple Text Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E399C32533747A009B3BFA /* Simple Text Editor.cpp */; };
+		D6E399C725337ABF009B3BFA /* Poisonous Plants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E399C625337ABF009B3BFA /* Poisonous Plants.cpp */; };
 		D6F3E59E249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */; };
 		D6F3E5A0249E3AC400769E1D /* insert a node at tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6F3E59F249E3AC400769E1D /* insert a node at tail.cpp */; };
 		D6FA3CBD24B137350090E5F4 /* Insert a node at the head.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6FA3CBC24B137350090E5F4 /* Insert a node at the head.cpp */; };
@@ -68,6 +70,8 @@
 		D6910F462492822B00F7345D /* HackerRankProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankProblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6910F492492822B00F7345D /* ArraysDS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
 		D6E281E824C11B4F0054B7B5 /* Maximum Element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Element.cpp"; sourceTree = "<group>"; };
+		D6E399C32533747A009B3BFA /* Simple Text Editor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Simple Text Editor.cpp"; sourceTree = "<group>"; };
+		D6E399C625337ABF009B3BFA /* Poisonous Plants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Poisonous Plants.cpp"; sourceTree = "<group>"; };
 		D6F3E59D249E363800769E1D /* Print the Elements of a Linked List  print the elments of a linkedlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print the Elements of a Linked List  print the elments of a linkedlist.cpp"; sourceTree = "<group>"; };
 		D6F3E59F249E3AC400769E1D /* insert a node at tail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "insert a node at tail.cpp"; sourceTree = "<group>"; };
 		D6FA3CBC24B137350090E5F4 /* Insert a node at the head.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insert a node at the head.cpp"; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 				D63ABD2224C63E89000031E4 /* Equal Stacks.cpp */,
 				D67760EC24D0C66A00F93901 /* Game of two stacks.cpp */,
 				D630260024E766DE0008660B /* Largest Rectangle.cpp */,
+				D6E399C32533747A009B3BFA /* Simple Text Editor.cpp */,
+				D6E399C625337ABF009B3BFA /* Poisonous Plants.cpp */,
 			);
 			path = Stacks;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 				D63ABD2324C63E89000031E4 /* Equal Stacks.cpp in Sources */,
 				D68BDEEF24BBC437004FD4C1 /* Insert a node into sorted double LL.cpp in Sources */,
 				D64C80C4249321F3006348F1 /* Dynamic array.cpp in Sources */,
+				D6E399C42533747A009B3BFA /* Simple Text Editor.cpp in Sources */,
 				D64C80BB24928316006348F1 /* 2DArrayDS.cpp in Sources */,
 				D6FA3CC524B14FB80090E5F4 /* Reverse a linkedList.cpp in Sources */,
 				D64C80C22492F2B1006348F1 /* Array Manipulation.cpp in Sources */,
@@ -231,6 +238,7 @@
 				D68BDEF124BBCBC8004FD4C1 /* Reverse Double linkedlist.cpp in Sources */,
 				D6FA3CBF24B139340090E5F4 /* Insert a node at a spesific position.cpp in Sources */,
 				D63ABD2124C6369E000031E4 /* Balanced brackets.cpp in Sources */,
+				D6E399C725337ABF009B3BFA /* Poisonous Plants.cpp in Sources */,
 				D68AF8D024B25D9000F1BFF0 /* Get Node value.cpp in Sources */,
 				D68AF8CE24B2368100F1BFF0 /* Merage two sorted lists.cpp in Sources */,
 				D6FA3CBD24B137350090E5F4 /* Insert a node at the head.cpp in Sources */,
